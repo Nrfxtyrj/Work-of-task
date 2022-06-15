@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    display: flex;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    margin : 50px auto;
+    width: 95%;
+}
+.content-one {
+    background-color: #3b7e58;
+    width: 50%;
+    min-width: 520px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    z-index: -2;
+    
+}
+.region {
+    display: flex;
+}
+.main-text {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f0e7e7;
+    margin-bottom: 60px;
+}
+form {
+    width: 70%;
+    margin: 0 auto;
+}
+.picha {
+    margin: 80px auto;
+    padding-left: 60px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    z-index: 0;
+}
+.text {
+    margin: 10px auto;
+    padding-left: 30px;
+}
+.two {
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+}
+.one {
+    color: rgb(255, 255, 255);
+}
+.round {
+    width: 300px;
+    height: 30px;
+    margin: 0;
+    top: 30px;
+    left: 50px; 
+    position: absolute;
+    text-align: center;
+    z-index: -1;
+}
+.content-two input{
+    
+    height: 50px;
+    display: block;
+    position: relative;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #f5f5f5;
+    line-height: 30px;
+    border-width: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+ }
+ .content-two {
+    width: 70%;
+    box-sizing: border-box;
+ }
+.buy a {
+    text-decoration: none;
+    padding: 30px;
+    color: #ffffff;
+}
+.buy {
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    background-color: #3b7e58;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 30px auto;
+}
+.country  {
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    padding-left: 10px;
+    background-color: #f5f5f5;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.main-name {
+    padding-bottom: 10px;
+}
+.user-numbers{
+    width: 85%;
+}
+.user-numbers input{
+    width: 100%;
+}
+.green {
+    color: #3b7e58;
+}
+
+.dropbtn {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 140px;
+}
+
+.dropbtn
+{
+  background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
+  padding-left: 25px;
+  width: 70px;
+}
+
+.dropbtn::after {
+    background: rgba(0, 0, 0, 0) url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png") no-repeat scroll center center;
+    content: "";
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    width: 16px;
+}
+
+
+.data-text{
+    font-size: 24px;
+}
+
+.dropdown-content a:first-child
+{
+  background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
+}
+
+.dropdown-content a:last-child
+{
+  background: url('https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png') no-repeat left center;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 2px 0 2px 25px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.footer {
+    display: none;
+}
+.user-name input {
+    width: 100%;
+}
+@media screen and (max-width: 320px) {
+    html {
+        background-color: #f0e7e7;
+    }
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+    .main {
+        display: block;
+        box-shadow: none;
+        margin: 0;
+    }
+    body {
+        margin: 100px auto;
+    }
+    .content-one {
+        background-color: #ffffff;
+        min-width: 280px;
+        margin: 0;
+        height: 300px;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+        z-index: +2;
+        box-shadow: 0;
+        margin-bottom: 10px;
+    }
+    form {
+        margin: 10px;
+        width: 90%;
+    }
+    .picha{
+        width: 100%;
+        margin-top: 0;
+    }
+    .picha img {
+        padding-top: 70px;
+        width: 210px;
+        height: 200px;
+    }
+    .round img {
+        width: 200px;
+        height: 200px;
+    }
+    .round {
+        width: 280px;
+        left: 5px;
+        top: 50px;
+    }
+    .one {
+        color: #000;
+        left: -10;
+        position: absolute;
+    }
+    .two {
+        color: #000;
+        right: 10px;
+        top: 0px;
+        position: absolute;
+    }
+    .main-text  {
+        background-color: #ffffff;
+        width: 100%;
+        padding: 0;
+    }
+    .main-text h2 {
+        font-weight: bolder;
+    }
+    .content-two {
+        margin: 10px;
+        width: 98%;
+    }
+    .country  {
+        margin-left: 10px;
+    }
+    .footer {
+        display: flex;
+        margin:  0 85px 0 85px;
+    }
+    .user-name input {
+        width: 100%;
+    }
+    .data {
+        padding-left: 0px;
+    }
+    .data-text{
+        font-size: 20px;
+    }
+    .text {
+        margin: 10px auto;
+        padding-left: 13px;
+    }
+}
+ 
